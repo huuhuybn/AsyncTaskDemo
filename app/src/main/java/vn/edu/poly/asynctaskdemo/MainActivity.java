@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 OnFinishedCounting onFinishedCounting = new OnFinishedCounting() {
                     @Override
                     public void onFinished(String s) {
-                        
+
                         textView.setText("ABC");
 
                         if (s.equals("Finished")) Toast.makeText(MainActivity.this,
